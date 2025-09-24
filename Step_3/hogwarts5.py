@@ -7,5 +7,5 @@ students = [
     {"name": "Draco", "house": "Slytherin", "patronus": None},
 ]
 
-for student in students:
-    print(student["name"], student["house"], student["patronus"], sep=", ")
+for i, student in enumerate(students):
+    print(i + 1, student["name"], student["house"], student["patronus"], sep=", ")
